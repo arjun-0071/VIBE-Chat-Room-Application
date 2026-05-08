@@ -11,7 +11,7 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    color: #2B50AA;
+    color: #E76F51;
 }
 
 h1 span{
@@ -33,7 +33,7 @@ h1 span{
     width: 50%;
     height: 50px;
     margin: 0 auto;
-    border: 3px solid #272727;
+    border: 3px solid #264653;
     background-color: transparent;
     font-size: 1.2rem;
 }
@@ -46,7 +46,7 @@ h1 span{
 }
 
 .submit-form input:focus{
-    box-shadow: 7px 7px #272727;
+    box-shadow: 7px 7px #264653;
     transition: 0.2s all ease-in-out;
 }
 
@@ -56,8 +56,8 @@ h1 span{
 
 .submit-form button:hover{
     cursor: pointer;
-    color: #2B50AA;
-    box-shadow: 7px 7px #2B50AA;
+    color: #E76F51;
+    box-shadow: 7px 7px #E76F51;
     transition: 0.2s all ease-in-out;
 }
 

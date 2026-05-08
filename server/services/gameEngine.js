@@ -214,14 +214,14 @@ function cmdLockdown(io, room, sector) {
   broadcast(
     io,
     room,
-    `⚠️ WIRESHARK OVERRIDE REQUIRED to seal ${normalizedSector}: "${q.q}" — You have 10 seconds. Type /answer [filter]`
+    `⚠️ WIRESHARK OVERRIDE REQUIRED to seal ${normalizedSector}: "${q.q}" — You have 15 seconds. Type /answer [filter]`
   );
 
   state.questionTimeout = setTimeout(() => {
     if (!state.isActive) return;
     state.activeQuestion = null;
     startPenalty(io, room);
-  }, 10000);
+  }, 15000);
 }
 
 function cmdAnswer(io, room, answer) {

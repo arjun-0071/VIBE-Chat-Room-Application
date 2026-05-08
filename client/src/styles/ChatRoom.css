@@ -1,5 +1,5 @@
 .chat-room{
-    background-color: #d6bdb6;
+    background-color: #F4A261;
     height: 100vh;
     padding: 30px;
 }
@@ -17,8 +17,8 @@
 }
 
 .room-number{
-    border-bottom: 3px solid #272727;
-    color: #2B50AA;
+    border-bottom: 3px solid #264653;
+    color: #E76F51;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -33,7 +33,7 @@
     font-size: 1.6rem;
     font-weight: 600;
     color: #fff;
-    background-color: #2B50AA;
+    background-color: #E76F51;
 }
 
 .expand:hover{
@@ -57,21 +57,21 @@
 }
 
 .room-member, .members-header{
-    border-bottom: 3px solid #272727;
+    border-bottom: 3px solid #264653;
     padding: 10px 0;
     font-size: 1.6rem;
 }
 
 .members-header{
     font-weight: 600;
-    background-color: #2B50AA;
+    background-color: #E76F51;
     color: #fff;
 }
 
 .leave-room{
     height: 10%;
-    background-color: #272727;
-    border-top: 3px solid #272727;  
+    background-color: #264653;
+    border-top: 3px solid #264653;  
     display: flex;
     font-size: 1.6rem;
     font-weight: 600;
@@ -106,7 +106,7 @@
 .messages-area{
     overflow-y: auto;
     scroll-behavior: smooth;
-    scrollbar-color: #272727 #e5c9c1;
+    scrollbar-color: #264653 #f9c7a1;
     flex: 1 1 0;
     min-height: 0;
 }
@@ -114,36 +114,37 @@
 .message{
     max-width: 40%;
     margin:50px;
-    box-shadow: -7px 7px #272727;
+    box-shadow: -7px 7px #264653;
     word-wrap: break-word;
 }
 
 .sender{  
     margin-left: auto;
-    box-shadow: 7px 7px #272727;
+    box-shadow: 7px 7px #264653;
 }
 
 .sender .message-meta{
-    background-color: #2B50AA ;
+    background-color: #E76F51 ;
 }
 
 .message-meta{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #94BFA7;
+    background-color: #E9C46A;
+    color: #264653;
     font-size: small;
 }
 
 .message-meta span{
-    color: #fff;
+    color: #264653;
 }
 
 .enc-data{
     padding: 10px;
     margin-bottom: 20px;
-    border-top: 3px solid #272727;
-    background-color:#ffe1d8;
+    border-top: 3px solid #264653;
+    background-color:#FFEDD8;
 }
 
 .enc-data div{
@@ -159,7 +160,7 @@
 .message-text{
     padding: 10px;
     font-size: 1.2rem;
-    background-color:#ffe1d8;
+    background-color:#FFEDD8;
 }
 
 
@@ -173,8 +174,8 @@
 .send-message-area button{
     font-size: 1.6rem;
     border: none;
-    border-left: 3px solid #272727;
-    background-color: #2B50AA;
+    border-left: 3px solid #264653;
+    background-color: #E76F51;
     font-weight: 600;
     width: 15%;
 }
@@ -192,7 +193,7 @@
 
 .send-message-area button:hover{
     
-    background-color: #272727;
+    background-color: #264653;
     cursor: pointer;
 }
 
@@ -238,7 +239,7 @@
     .chat-room-controls{
         flex-direction: row;
         width: 100%;
-        border-bottom: 3px solid #272727;
+        border-bottom: 3px solid #264653;
     }
 
     .members-header{
@@ -254,8 +255,8 @@
 
     .room-member{
         border: none;
-        border-right: 3px solid #272727;
-        border-bottom: 3px solid #272727;
+        border-right: 3px solid #264653;
+        border-bottom: 3px solid #264653;
     }
 
     .leave-room{
