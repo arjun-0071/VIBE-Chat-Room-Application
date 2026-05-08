@@ -2,5 +2,6 @@ services:
   - type: web
     name: vibe-chat
     env: node
+    plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
