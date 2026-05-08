@@ -1,0 +1,10 @@
+{
+  "name": "vibe-chat-application",
+  "version": "1.0.0",
+  "description": "Unified Deployment Package",
+  "scripts": {
+    "install": "npm install --prefix client && npm install --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  }
+}
