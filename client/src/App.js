@@ -6,7 +6,7 @@ import io from 'socket.io-client';
 import {pack, unpack, generateKeys} from './services/crypt.js';
 
 const myKeys = generateKeys();
-let socket = io.connect('http://127.0.0.1:8080',{transports: ['websocket']});
+let socket = io.connect(`http://${window.location.hostname}:8080`,{transports: ['websocket']});
 export const AppContext = createContext(null);
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
     if(!name || !room) return;
     setSigned(true);
     if(socket){
-      socket = io.connect('http://127.0.0.1:8080',{transports: ['websocket']});
+      socket = io.connect(`http://${window.location.hostname}:8080`,{transports: ['websocket']});
       setMessages([]);
     }
     socket.emit('join',{
